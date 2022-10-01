@@ -7,5 +7,5 @@ Team Members: </br>
     3. Srivatsan </br>
     4. Arandeep Singh </br>
 
-Industry Mentors: Sowjanya, Sandeep Doodigani </br>
+Industry Mentors: Bharadwaj, Santoshi, Mentor 14</br>
 Faculty Mentor: A. Beulah
