@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stats</title>
+</head>
+
+<body>
+    {% if total==0 and flag==1%}
+        <p>Enter your mail</p>
+        <form method="POST">
+        <input type="email" name="email" placeholder="Email" required />
+        <button type="submit">Submit</button>
+        </form>
+    {% else %}
+        {{total}} number of donations made by you.
+    {% endif %}
+  <button><a href="/">Dashboard</a></button>
+  <button><a href="/logout">LOGOUT</a></button>
+</body>
+
+</html>
