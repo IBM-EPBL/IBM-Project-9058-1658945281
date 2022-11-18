@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+}
+body{
+  background-color: #FFE69A;
+}
+label {
+  font-family: "Raleway", sans-serif;
+  font-size: 11pt;
+}
+#forgot-pass {
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-size: 10pt;
+  margin-top: 3px;
+  text-align: right;
+}
+#card {
+  background: #fbfbfb;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height: 600px;
+  margin: 6rem auto 8.1rem auto;
+  width: 329px;
+}
+#card1 {
+  background: #fbfbfb;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height: 200px;
+  margin: 6rem auto 8.1rem auto;
+  width: 329px;
+}
+#card-content {
+  padding: 12px 44px;
+}
+#card-title {
+  font-family: "Raleway Thin", sans-serif;
+  letter-spacing: 4px;
+  padding-bottom: 23px;
+  padding-top: 13px;
+  text-align: center;
+}
+#signup {
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-size: 10pt;
+  margin-top: 16px;
+  text-align: center;
+}
+#submit-btn {
+  color: #ffffff;
+  background: -webkit-linear-gradient(right, #FFE69A,  #FFD24C);
+  border: none;
+  border-radius: 21px;
+  box-shadow: 0px 1px 8px #FFD24C;
+  cursor: pointer;
+  font-family: "Raleway SemiBold", sans-serif;
+  height: 42.3px;
+  margin: 0 auto;
+  margin-top: 50px;
+  transition: 0.25s;
+  width: 153px;
+}
+#submit-btn:hover {
+  box-shadow: 0px 1px 18px #FFD24C;
+}
+.form {
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+}
+.form-border {
+  background:#FFD24C ;
+  height: 2px;
+  width: 100%;
+}
+/* -webkit-linear-gradient(right, #a6f77b, #2ec06f) */
+.form-content {
+  background: #fbfbfb;
+  border: none;
+  outline: none;
+  padding-top: 14px;
+}
+.underline-title {
+  background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+  height: 2px;
+  margin: -1.1rem auto 0 auto;
+  width: 89px;
+}
+.home{
+  background-color: white;
+}
+.nav{
+  display: block;
+  padding:0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+  display: block;
+  padding: 0;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a{
+  display: block;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: black;
+}
+.welcome{
+  font-family: 'Sacramento', cursive;
+  margin-left: 800px;
+  font-size: 75px;
+  padding: 150px 10px 10px 10px;
+}
+.c{
+  margin-left: 800px;
+}
+.hb{
+  color: #ffffff;
+  background: -webkit-linear-gradient(right, #FFE69A,  #FFD24C);
+  border: none;
+  border-radius: 21px;
+  box-shadow: 0px 1px 8px #FFD24C;
+  cursor: pointer;
+  font-family: "Raleway SemiBold", sans-serif;
+  height: 50px;
+  margin: 0 auto;
+  margin-left: 390px;
+  margin-top: 50px;
+  transition: 0.25s;
+  width: 180px;
+  font-size: 20px;
+}
+.hb:hover {
+  box-shadow: 0px 1px 18px #FFD24C;
+}
+.scroll-left {
+height: 50px;
+overflow: hidden;
+position: relative;
+}
+.scroll-left p {
+position: absolute;
+padding-top: 20px;
+width: 100%;
+height: 100%;
+margin: 0;
+line-height: 50px;
+text-align: center;
+/* Starting position */
+-moz-transform:translateX(100%);
+-webkit-transform:translateX(100%);
+transform:translateX(100%);
+/* Apply animation to this element */
+-moz-animation: scroll-left 10s linear infinite;
+-webkit-animation: scroll-left 10s linear infinite;
+animation: scroll-left 10s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-left {
+0% { -moz-transform: translateX(100%); }
+100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scroll-left {
+0% { -webkit-transform: translateX(100%); }
+100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scroll-left {
+0% {
+-moz-transform: translateX(100%); /* Browser bug fix */
+-webkit-transform: translateX(100%); /* Browser bug fix */
+transform: translateX(100%);
+}
+100% {
+-moz-transform: translateX(-100%); /* Browser bug fix */
+-webkit-transform: translateX(-100%); /* Browser bug fix */
+transform: translateX(-100%);
+}
+}
+.Thank{
+  font-family: 'Sacramento', cursive;
+  text-align: center;
+  font-size: 75px;
+  padding: 250px 10px 10px 10px;
+
+}
