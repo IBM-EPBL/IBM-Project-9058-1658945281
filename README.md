@@ -7,5 +7,5 @@ Team Members: </br>
     3. Srivatsan S</br>
     4. Arandeep Singh </br>
 
-Industry Mentors: Bharadwaj, Santoshi</br>
+Industry Mentors: Navya</br>
 Faculty Mentor: A. Beulah
