@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Plasma Donor Application</title>
+    <link rel="stylesheet" href="/static/styles.css">
+  </head>
+  <body>
+    <div id="card">
+   <div id="card-content">
+     <img src="/static/plasma.jpg" alt="" width="250px" height="150px">
+     <div id="card-title">
+       <h2>REGISTER</h2>
+       <!-- <div class="underline-title"></div> -->
+     </div>
+     <form method="post" class="form">
+
+       <label for="user-email" style="padding-top:13px">
+           &nbsp;Email
+         </label>
+       <input id="user-email" class="form-content" type="email" name="email" autocomplete="on" required />
+       <div class="form-border"></div>
+
+       <label for="user-name" style="padding-top:22px">&nbsp; Name
+      </label>
+       <input id="user-email" class="form-content" type="text" name="username"  required />
+       <div class="form-border"></div>
+
+       <label for="user-password" style="padding-top:22px">&nbsp;Password
+         </label>
+       <input id="user-password" class="form-content" type="password" name="password" required />
+       <div class="form-border"></div>
+
+
+
+       <input id="submit-btn" type="submit" name="submit" value="SIGN UP" />
+      </form>
+      <!-- <p>{{success}}</p>
+      <p style="color: red">{{error}}</p> -->
+
+      <a href="/login" id="signup">Already have an account? Login</a>
+   </div>
+ </div>
+  </body>
+</html>

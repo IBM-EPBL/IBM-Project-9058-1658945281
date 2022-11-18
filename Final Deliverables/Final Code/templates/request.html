@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Request</title>
+    <link rel="stylesheet" href="/static/styles.css">
+  </head>
+  <body>
+    <div class="nav">
+      <ul>
+      <li><a href="/login">Logout</a></li>
+      <li><a href="/stats">My History</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/">Home</a></li>
+    </ul>
+    </div>
+    <div id="card">
+   <div id="card-content">
+     <!-- <img src="plasma.jpg" alt="" width="250px" height="150px"> -->
+     <div id="card-title">
+       <h2>RECIPIENT DETAILS</h2>
+       <!-- <div class="underline-title"></div> -->
+     </div>
+     <form method="post" class="form">
+       <label for="user-email" style="padding-top:13px"> &nbsp;Email </label>
+       <input id="user-email" class="form-content" type="email" name="email" autocomplete="on" required />
+       <div class="form-border"></div>
+       <label for="user-name" style="padding-top:22px">&nbsp;Name</label>
+       <input id="user-email" class="form-content" type="text" name="Name" required />
+       <div class="form-border"></div>
+
+       <label for="user-phone" style="padding-top:22px">&nbsp;Phone</label>
+       <input id="user-password" class="form-content" type="tel" name="phone" required />
+       <div class="form-border"></div>
+
+       <label for="user-phone" style="padding-top:22px">&nbsp;Blood Group</label>
+       <input id="user-email" class="form-content" type="text" name="BloodGroupReq" required />
+       <div class="form-border"></div>
+
+       <label for="user-address" style="padding-top:22px">&nbsp;Address</label>
+       <input id="user-email" class="form-content" type="text" name="Address" required />
+       <div class="form-border"></div>
+
+
+       <input id="submit-btn" type="submit" name="submit" value="SUBMIT" />
+
+      </form>
+      <!-- <p>{{success}}</p>
+      <p style="color: red">{{error}}</p> -->
+   </div>
+ </div>
+  </body>
+</html>
